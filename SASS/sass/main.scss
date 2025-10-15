@@ -1,0 +1,12 @@
+//her refererer vi til alle partials som designer siden
+
+@use 'fonts'; //legge til partial SASS - uten understrek 
+@use 'colors'; //legge til partial SASS
+@use 'layout'; // legge til patrial SASS
+@use 'components'; //legge til partial SASS
+
+body{
+    margin:0;
+    font-family: fonts.$main-font; //fonts peker på mappe - til #mainfonts
+    color: colors.$primary-color; //colors peker på mappe - til $primary-color
+}
